@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+ <div class="container">  
+    <h1 id="title">Calculadora</h1>
+    <p id="resultado"></p>
+
+
+<table>
+    <tr>
+        <td class="botao" onclick="clean()">C</td>
+        <td class="botao" onclick="insert('/')">/</td>
+        <td class="botao" onclick="back()"><</td>
+        <td class="botao" onclick="insert('del')">del</td>
+    </tr>
+    <tr>
+        <td class="botao" onclick="insert('1')">1</td>
+        <td class="botao" onclick="insert('2')">2</td>
+        <td class="botao" onclick="insert('3')">3</td>
+        <td class="botao" onclick="insert('4')">4</td>
+    </tr>
+    <tr>
+        <td class="botao" onclick="insert('5')">5</td>
+        <td class="botao" onclick="insert('6')">6</td>
+        <td class="botao" onclick="insert('7')">7</td>
+        <td class="botao" onclick="insert('8')">8</td>
+    </tr>
+    <tr>
+        <td class="botao" onclick="insert('9')">9</td>
+        <td class="botao" onclick="insert('0')">0</td>
+        <td class="botao" onclick="insert('-')">-</td>
+        <td class="botao" onclick="insert('+')">+</td>
+    </tr>
+
+    <tr>
+        <td class="botao" onclick="insert(',')">,</td>
+        <td class="botao" onclick="calcular('=')">=</td>
+        <td class="botao" onclick="insert('*')">*</td>
+        <td class="botao" onclick="insert('**')">**</td>
+    </tr>
+</div> 
+</table>
+
+
+
+
+<script src="/script.js"></script>
+
+</body>
+</html>
